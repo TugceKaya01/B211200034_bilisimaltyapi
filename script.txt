@@ -1,0 +1,12 @@
+
+#!/bin/bash
+ULASILACAK_DIZIN="/home/ubuntu/BSM"
+KAYIT_DOSYASI="/home/ubuntu/BSM/file"
+
+c=`cat $KAYIT_DOSYASI | wc -c`
+w=`cat $KAYIT_DOSYASI | wc -w`
+l=`grep -c "."  $KAYIT_DOSYASI`
+
+echo Karakter sayisi in $KAYIT_DOSYASI - $c
+echo Kelime sayisi in $KAYIT_DOSYASI -   $w
+echo Satir sayisi in $KAYIT_DOSYASI -    $l
