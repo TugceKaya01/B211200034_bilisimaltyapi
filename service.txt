@@ -1,0 +1,10 @@
+
+[Unit]
+Description=txt
+
+[Service]
+Type=simple
+Execstart=/home/tugcee2001-ubuntu/BSM/script.sh
+
+[Install]
+WantedBy=multi-user.target
